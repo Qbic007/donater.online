@@ -52,6 +52,7 @@ $config = [
             'enableStrictParsing' => true,
             'rules'               => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'book'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'payment'],
                 '<url:(.*)>' => 'site/index',
             ],
         ],
